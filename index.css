@@ -310,7 +310,14 @@ input[type="radio"] {
     .features .row {
         padding: 10px 0;
     }
-
+    #im{
+        font-weight: bolder;
+        color: white;
+        height: 100px;
+    }
+    #div{
+        display: flex;
+    }
     .faq h2 {
         font-size: 20px;
     }
