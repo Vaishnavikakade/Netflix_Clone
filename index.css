@@ -147,6 +147,7 @@ nav button {
     padding: 10px 12%;
     text-align: center;
     font-size: 18px;
+    color: white;
 }
 
 .faq h2 {
@@ -260,7 +261,26 @@ input[type="radio"] {
     margin-top: 20px;
     margin-bottom: 10px;
 }
+#i1{
+    width: 120px;
+    height: 45px;
+    padding-left: 10px;
+    background-color:black;
+    color: white;
+    padding-right: 12px;
+    font-size: larger;
 
+}
+.li{
+    display: inline;
+}
+#i2{
+    width: 130px;
+    height: 45px;
+    background-color: #db0001;
+    color: white;
+    font-size: large;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -310,14 +330,7 @@ input[type="radio"] {
     .features .row {
         padding: 10px 0;
     }
-    #im{
-        font-weight: bolder;
-        color: white;
-        height: 100px;
-    }
-    #div{
-        display: flex;
-    }
+    
     .faq h2 {
         font-size: 20px;
     }
